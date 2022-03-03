@@ -1,0 +1,165 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.header,
+.hero-container,
+.footer {
+  background: #1F2937;
+  color: white;
+}
+
+.hero-text {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+.logo {
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.sub-text,
+li {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+button,
+.cta-card {
+  background-color: #3882F6;
+}
+
+.cards-header{
+  font-size: 36px; 
+  font-weight: bolder;
+  color: #1F2937;
+  text-align: center;
+  padding: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  gap: 15%;
+}
+
+.hero-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: stretch;
+  padding: 40px;
+  gap: 32px;
+}
+
+.random {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
+  text-align: center;
+  padding: 0 0 40px 0;
+
+
+}
+
+.cards-img{
+  border: 3px blue solid;
+  border-radius: 12px;
+  height: 130px;
+  width: 130px;
+}
+
+.cards {
+  max-width: 130px;
+}
+
+.quote-banner{
+  display: flex;
+  background: #E5E7EB;
+  justify-content: center;
+  align-items: center;
+}
+
+.quotes {
+  display: flex;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1F2937;
+  flex-direction: column;
+  padding: 120px 0px;
+  max-width: 750px;
+}
+
+.credit {
+  margin-left: auto
+}
+
+
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  border: red 2px solid;
+  flex: 1;
+  gap: 10px;
+  outline: auto;
+}
+
+.cta-card {
+  display: flex;
+  color: white;
+  padding: 32px;
+  border-radius: 8px;
+  width: 1000px;
+  outline: auto;
+  gap: 52px;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+}
+
+.img {
+  display: flex;
+  background-color: grey;
+  justify-self: start;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 100px;
+}
+
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  gap: 8px;
+  width: 50%;
+  padding: 0px
+}
+
+.button {
+  width: 100px;
+  border-radius: 8px;
+  height: 32px;
+  color: white;
+}
